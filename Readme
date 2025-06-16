@@ -132,7 +132,7 @@
     <h2>💻 Explore the Code</h2>
     <p>You can find the full source code for this project on my GitHub repository:</p>
     <p class="github-link"><a href="YOUR_GITHUB_REPO_URL_HERE" target="_blank">View on GitHub</a></p>
-    <p style="text-align: center; font-size: 0.9em; color: #777;">(e.g., <code>https://github.com/walkingblack/Sentiment-Analysis-Streamlit</code>)</p>
+    <p style="text-align: center; font-size: 0.9em; color: #777;">(e.g., <code>https://github.com/YourUsername/Sentiment-Analysis-Streamlit</code>)</p>
 
     <div class="section-divider"></div>
 
