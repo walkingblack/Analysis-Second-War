@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlocking Text Insights: Sentiment Analysis & Keyword Extraction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #555;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        .section-divider {
+            border-top: 1px solid #ddd;
+            margin: 40px 0;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 25px;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: #0056b3; /* Darker blue for emphasis */
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .highlight {
+            background-color: #e6f7ff; /* Light blue background for highlighted text */
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .github-link {
+            display: block;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .github-link a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .github-link a:hover {
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🚀 Unlocking Text Insights: Sentiment Analysis & Keyword Extraction 🚀</h1>
+
+    <p>Ever wondered what the underlying sentiment of a text is, or which words stand out most? This project, built with <strong>Streamlit</strong>, provides a simple yet powerful interface for <span class="highlight"><strong>text analysis</strong></span>, focusing on <strong>sentiment analysis</strong> and <strong>frequent keyword extraction</strong>. It's designed to give quick, actionable insights into any given text, from news articles to customer feedback.</p>
+
+    <div class="section-divider"></div>
+
+    <h2>✨ Features at a Glance</h2>
+    <ul>
+        <li><strong>Sentiment Analysis (TextBlob):</strong> Get an objective polarity score (from -1 for negative to +1 for positive) and a subjectivity score (from 0 for objective to 1 for subjective). Understand the overall emotional tone.</li>
+        <li><strong>Advanced Sentiment Analysis (Hugging Face Transformers):</strong> Leverage state-of-the-art pre-trained models for a more nuanced sentiment classification (e.g., POSITIVE, NEGATIVE, NEUTRAL) with a confidence score.</li>
+        <li><strong>Top 10 Frequent Words Chart:</strong> Visualize the most commonly used words in your text (after removing common "stop words" like "the," "a," etc.) to quickly grasp key themes.</li>
+        <li><strong>Dynamic Word Cloud:</strong> See a visually engaging representation of your text's most prominent terms, where word size reflects its frequency.</li>
+        <li><strong>Intuitive Interface:</strong> A user-friendly Streamlit application makes text analysis accessible to anyone – no coding required!</li>
+    </ul>
+
+    <div class="section-divider"></div>
+
+    <h2>💡 Why This Matters</h2>
+    <p>In today's data-rich world, understanding text is crucial. This tool can be incredibly valuable for:</p>
+    <ul>
+        <li><strong>Market Research:</strong> Quickly gauge public opinion on products or services.</li>
+        <li><strong>Social Media Monitoring:</strong> Understand the sentiment around brands or events.</li>
+        <li><strong>Customer Feedback Analysis:</strong> Identify common pain points or praises in reviews.</li>
+        <li><strong>Content Creation:</strong> Optimize content for a desired emotional impact.</li>
+        <li><strong>Academic Research:</strong> Analyze large bodies of text for thematic patterns.</li>
+    </ul>
+
+    <div class="section-divider"></div>
+
+    <h2>🛠️ Technologies Used</h2>
+    <ul>
+        <li><strong>Python:</strong> The core programming language.</li>
+        <li><strong>Streamlit:</strong> For building the interactive web application.</li>
+        <li><strong>TextBlob:</strong> A simplified text processing library for sentiment analysis.</li>
+        <li><strong>Hugging Face Transformers:</strong> For advanced, pre-trained NLP models.</li>
+        <li><strong>NLTK (Natural Language Toolkit):</strong> For robust text tokenization and stop word removal.</li>
+        <li><strong>Matplotlib & Pandas:</strong> For data visualization and manipulation.</li>
+        <li><strong>WordCloud:</strong> To generate beautiful word cloud visualizations.</li>
+    </ul>
+
+    <div class="section-divider"></div>
+
+    <h2>💻 Explore the Code</h2>
+    <p>You can find the full source code for this project on my GitHub repository:</p>
+    <p class="github-link"><a href="YOUR_GITHUB_REPO_URL_HERE" target="_blank">View on GitHub</a></p>
+    <p style="text-align: center; font-size: 0.9em; color: #777;">(e.g., <code>https://github.com/YourUsername/Sentiment-Analysis-Streamlit</code>)</p>
+
+    <div class="section-divider"></div>
+
+    <h2>🤝 Let's Connect!</h2>
+    <p>I'm passionate about <strong>Data Science</strong>, <strong>Natural Language Processing (NLP)</strong>, and building practical applications that solve real-world problems. Feel free to connect with me on LinkedIn to discuss this project, data science, or potential collaborations!</p>
+
+    <div class="contact-info">
+        <p>Currently in Resende, Rio de Janeiro, Brazil.</p>
+        <p>Looking forward to connecting!</p>
+    </div>
+
+</body>
+</html>
